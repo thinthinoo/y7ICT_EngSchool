@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-image: linear-gradient( 100deg, #fff, #e7e2ff, #cfc8f3);
+}
+/* NAV BAR */
+/* NAV BAR */
+.topnav{
+    overflow: hidden;
+    background-color: #205295;
+}
+.topnav a{
+    margin-top:10px;
+    text-decoration: none;
+    color: #ede9ff;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    font-size: large;
+    font-weight: 600;
+}
+.topnav a:hover{
+    background-color: #144272;
+    transition: .50s;
+    border-radius: 30px;
+    
+}
+.logo1{
+    width: 60px;
+    height: 40px;
+}
+
+#logoimg{
+    margin-top: 0%;
+}
+/* END OF NAV BAR */
+
+/* END OF NAV BAR */
+
+/* HEADER/ABOUTUSPART */
+
+.row1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px 30px;
+    max-width: 1170vh;
+}
+.row1 .right{
+    overflow: hidden;
+}
+.row1 .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row1 .left{
+    display: flex;
+    align-items: center;
+}
+.row1 .left .content{
+    padding-left: 20px;
+    margin-left: 50px;
+}
+.row1 .left .content h2{
+    color: #205294;
+    font-weight: 600;
+    font-size: 25px;
+}
+.row1 .left .content h2 span{
+    color: #0A2647;
+    font-weight: 800;
+}
+.row1 .left .content p{
+    color: #205295;
+}
+.row1 .left .content a{
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #0A2647;
+    color: #d0c9f0;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.row1 .left .content a{
+    padding: 8px 30px;
+    background-color: #0A2647;
+    color: #d0c9f0;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.row1 .right .content a:hover{
+    transition: 0.70s;
+    margin-top: 7px ;
+}
+.row1 .right .content a:hover{
+    transition: 0.70s;
+    margin-top: 7px ;
+}
+@media (max-width:990px){
+    .row1 .right .content{
+        padding-left: 0px;
+    }
+}
+@media (max-width:768px){
+    .row1{
+        width: 90%;
+        grid-template-columns: repeat 1fr;
+    }
+}
+.row1 .left .content a:hover{
+    color: #0A2647;
+    background-color: #205294;
+    transition: 0.70s;
+}
+
+/* END OF HEADER */
+
+.cambridge{
+    width: 10%;
+    float: left;
+    margin-left: 29%;
+    margin-right: 60px;
+}
+
+.oxford{
+    width: 11%;
+    float: left;
+    margin-top: 10px;
+}
+
+.logo1{
+    width: 60px;
+    height: 40px;
+}
+
+#logoimg{
+    margin-top: 0%;
+}
+
+.harvard{
+    width: 10%;
+    margin-top:55px ;
+    margin-left: 64px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ABOUT US READ MORE */
+.textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 45px auto;
+    width: 90%;
+    color: #205295;
+    flex-wrap: nowrap;
+} 
+.img1{
+    max-width: 600px;
+    float: left;
+    border-radius: 5%;
+    margin-right: 20px;
+    
+}
+.textbox h2{
+    font-size: 200%;
+    margin-bottom: 10px;
+    color: #0A2647;
+}
+.textbox p{
+    margin-bottom: 30px;
+
+}
+.textbox a{
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #0A2647;
+    color: #d0c9f0;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.textbox a:hover{
+    color: #0A2647;
+    background-color: #205294;
+    transition: 0.70s;
+}
+/* END OF ABOUT US READMORE */
+
+/* CARDS OF COURSES */
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 55vh;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: #205295;
+    width: 280px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.cardimg{
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0 ;
+}
+.online1{
+    background-image: url('../images/online1.jpg');
+}
+.online2{
+    background-image: url('../images/online2.jpg');
+}
+.online3{
+    background-image: url('../images/online3.png');
+}
+.online4{
+    background-image: url('../images/online4.png');
+}
+.titlecourse{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 160%;
+    color: #144272;
+    border-bottom: 2px #0A2647;
+}
+.container h3{
+    text-align: center;
+    font-size: 150%;
+    color: #d0c9f0;
+}
+.container a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #0A2647;
+    color: #d0c9f0;
+    border-radius: 30px;
+    margin-left: 73px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.container a:hover{
+    transition: 0.70s;
+    margin-top: 7px ;
+}
+.card:hover{
+    margin-top: 30px;
+    box-shadow: 0 0 20px #a29bbe;
+    transition: 0.70s;
+}
+/* END OF CARD OF COURSES */
+
+
+/* FOOTER SECTION */
+footer{
+    background-color: #205295;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    padding: 40px 0 5px;
+    color: #dfd9fa;
+    font-family: 'Poppins', sans-serif;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: fixed;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+}
+.logo2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+.col h3{
+    width: fit-content;
+
+    margin-bottom: 20px;
+    position: relative;
+}
+.email{
+    width: fit-content;
+    border-bottom: 2px solid #dfd9fa;;
+    margin-top: 15px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #dfd9fa;;
+}
+.para{
+    border-bottom: 2px solid #dfd9fa;;
+    margin-bottom: 20px;
+}
+.social-icons a{
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 27px;
+    color: #dfd9fa;;
+}
+@media (max-width: 600px){
+    footer .row{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+    footer .col ul{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .col input{
+        width: 100%;
+    }
+}
+footer .quick a:hover{
+    
+    background: #144272;
+    padding: 1px 6px;
+    border-radius: 10px;
+    transition: .70s;
+    margin-left: 5px;
+}
+.footer a:hover{
+    padding: 1px 6px;
+    border-radius: 10px;
+    transition: .70s;
+    margin-left: 5px;
+    color: #0A2647;
+}
+/* END OF FOOTER */
+/* SCROLLBAR */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #e7e2ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e7e2ff, #356bb3, #948ead, #e7e2ff);
+    border-radius: 15px;
+}
+/* END OF SCROLLBAR */

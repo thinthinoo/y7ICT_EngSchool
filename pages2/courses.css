@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-image: linear-gradient( 100deg, #fff, #e7e2ff, #cfc8f3);
+}
+.topnav{
+    overflow: hidden;
+    background-color: #205295;
+}
+.topnav a{
+    margin-top:10px ;
+    text-decoration: none;
+    color: #ede9ff;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    font-size: large;
+    font-weight: 600;
+}
+.topnav a:hover{
+    background-color: #144272;
+    transition: .50s;
+    border-radius: 30px;
+
+}
+.logo1{
+    width: 60px;
+    height: 40px;
+}
+
+#logoimg{
+    margin-top: 0%;
+}
+
+
+footer{
+    background-color: #205295;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    bottom:0;
+    padding: 40px 0 5px;
+    color: #dfd9fa;
+    font-family: 'Poppins', sans-serif;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: fixed;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+}
+.logo2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+.col h3{
+    width: fit-content;
+
+    margin-bottom: 20px;
+    position: relative;
+}
+.email{
+    width: fit-content;
+    border-bottom: 2px solid #dfd9fa;;
+    margin-top: 15px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #dfd9fa;;
+}
+.para{
+    border-bottom: 2px solid #dfd9fa;;
+    margin-bottom: 20px;
+}
+.social-icons a{
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 27px;
+    color: #dfd9fa;;
+}
+
+footer .quick a:hover{
+
+    background: #144272;
+    padding: 1px 6px;
+    border-radius: 10px;
+    transition: .70s;
+    margin-left: 5px;
+}
+.footer a:hover{
+    padding: 1px 6px;
+    border-radius: 10px;
+    transition: .70s;
+    margin-left: 5px;
+    color: #0A2647;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #e7e2ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e7e2ff, #356bb3, #948ead, #e7e2ff);
+    border-radius: 15px;
+}
+
+.featured_books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+
+.featured_books .featured_books_box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    overflow: hidden;
+}
+.featured_books .featured_books_box .featured_books_card{
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+    margin: auto 10px;
+}
+
+.feaatured_books,h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.featured_books .featured_books_box .featured_books_card:hover{
+    box-shadow: 0 0 5px #089da1;
+}
+
+.featured_books .featured_books_box .featured_books_card .featured_books_img img{
+    width: 200px;
+}
+
+.featured_books .featured_books_box .featured_books_card .featured_books_tags h2{
+    margin: 12px;
+}
+
+.featured_books .featured_books_box .featured_books_card .featured_books_tags .grade{
+    color: #919191;
+}
+
+.featured_books .featured_books_box .featured_books_card .featured_books_tags .subject{
+    color: #089da1;
+    margin-top:-10px ;
+}
+
+.featured_books .featured_books_box .featured_books_card .featured_books_tags .book_price{
+    margin-top: 2px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.featured_books .featured_books_box .featured_books_card .featured_books_tags .book_price sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+@media (max-width: 600px){
+    footer .row{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+    footer .col ul{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .col input{
+        width: 100%;
+    }
+}

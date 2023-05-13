@@ -1,0 +1,455 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-image: linear-gradient( 100deg, #fff, #e7e2ff, #cfc8f3);
+}
+/* NAV BAR */
+.topnav{
+    overflow: hidden;
+    background-color: #205295;
+}
+.topnav a{
+    margin-top:10px;
+    text-decoration: none;
+    color: #ede9ff;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    font-size: large;
+    font-weight: 600;
+}
+.topnav a:hover{
+    background-color: #144272;
+    transition: .50s;
+    border-radius: 30px;
+}
+/* END OF NAV BAR */
+
+/* HEADER/ABOUTUSPART */
+
+
+/* END OF HEADER */
+
+.cambridge{
+    width: 10%;
+    float: left;
+    margin-left: 29%;
+    margin-right: 60px;
+}
+
+.oxford{
+    width: 11%;
+    float: left;
+    margin-top: 10px;
+}
+
+.logo1{
+    width: 60px;
+    height: 40px;
+}
+
+#logoimg{
+    margin-top: 0%;
+}
+
+.harvard{
+    width: 10%;
+    margin-top:55px ;
+    margin-left: 64px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ABOUT US READ MORE */
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 45px auto;
+    width: 90%;
+    color: #356bb3;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+} 
+
+.content h1{
+    margin-bottom: 20px;
+    color: #123a64;
+}
+.content p{
+    color: #356bb3;
+}
+.img1{
+    max-width: 600px;
+    float: left;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+.content h1{
+    font-weight: 800;
+    color: #123a64;
+    margin-bottom: 20px;
+}
+.content h2{
+    margin-top: 10px;
+    font-size: 180%;
+    margin-bottom: 10px;
+    color: #356bb3;
+}
+.content li{
+    color: #0A2647;
+}
+.row1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px 30px;
+    max-width: 1170vh;
+}
+.row1 .right{
+    overflow: hidden;
+}
+.row1 .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row1 .left{
+    display: flex;
+    align-items: center;
+}
+.row1 .left .content{
+    padding-left: 20px;
+    margin-left: 50px;
+}
+.row1 .left .content h2{
+    color: #205294;
+    font-weight: 600;
+}
+.row1 .leftt .content h2 span{
+    color: #0A2647;
+    font-weight: 800;
+}
+.row1 .left .content p{
+    color: #205295;
+}
+.row1 .left .content a{
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #0A2647;
+    color: #d0c9f0;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.row1 .left .content a{
+    padding: 8px 30px;
+    background-color: #0A2647;
+    color: #d0c9f0;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.row1 .right .content a:hover{
+    transition: 0.70s;
+    margin-top: 7px ;
+}
+.row1 .right .content a:hover{
+    transition: 0.70s;
+    margin-top: 7px ;
+}
+@media (max-width:990px){
+    .row1 .right .content{
+        padding-left: 0px;
+    }
+}
+@media (max-width:768px){
+    .row1{
+        width: 90%;
+        grid-template-columns: repeat 1fr;
+    }
+}
+
+/* END OF HEADER */
+/* END OF ABOUT US READMORE */
+
+/* ABOUT US READ MORE */
+.textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 45px auto;
+    width: 90%;
+    color: #205295;
+    flex-wrap: nowrap;
+} 
+.img1{
+    max-width: 600px;
+    float: left;
+    border-radius: 5%;
+    margin-right: 20px;
+    
+}
+.textbox h2{
+    font-size: 200%;
+    margin-bottom: 10px;
+    color: #0A2647;
+}
+.textbox p{
+    margin-bottom: 30px;
+
+}
+/* END OF ABOUT US READMORE */
+
+/* CAMPUS */
+.campus{ 
+    height: 350px; 
+    width: 800px;
+    box-shadow: 0 0 20px 2px #948ead;
+    border-radius: 10px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+.campuses h1{
+    text-align: center;
+    color: #123a64;
+    margin-top: 50px;
+}
+.campuses p{
+    text-align: center;
+    color: #a29bbe;
+    margin-bottom: 20px;
+}
+.campuses{
+    min-height: 60vh;
+}
+
+.text{
+    text-align: center;
+    margin-top: 105px;
+    color: #0A2647;
+}
+.campus:hover{
+    box-shadow: 0 0 30px #0A2647;
+    transition: 0.60s;
+}
+/* END OF CAMPUS */
+
+/* LEADERS */
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: #205294;
+    width: 270px;
+    height: 380px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.cardimg{
+    height: 250px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0 ;
+}
+.online1{
+    background-image: url('../images/IMG_Real_founder.png');
+}
+.online2{
+    background-image: url('../images/IMG_Founder.jpg');
+}
+.online3{
+    background-image: url('../images/IMG_Principal.jpg');
+}
+
+.titlecourse{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 200%;
+    color: #144272;
+}
+.container h3{
+    text-align: center;
+    font-size: 150%;
+    color: #0A2647;
+}
+.container span{
+    color: #d0c9f0;
+}
+.container a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 30px;
+    background-color: #0e335e;
+    color: #d0c9f0;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.container a:hover{
+    transition: 0.80s;
+    margin-top: 10px ;
+}
+.card:hover{
+    margin-top: 30px;
+    box-shadow: 0 0 20px #a29bbe;
+    transition: 0.60s;
+}
+/* END OF LEADERS */
+
+/* CHECK */
+.check1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 20vh;
+}
+.check a{
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #144272;
+    color: #d0c9f0;
+    border-radius: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 150%;
+    margin-bottom: 60px;
+    margin: auto;
+}
+.check a:hover{
+    background-color: #356bb3;
+    transition: 1s;
+}
+.check p{
+    text-align: center;
+    color: #a29bbe;
+}
+/* END OF CHECK */
+
+/* FOOTER SECTION */
+footer{
+    background-color: #205295;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    padding: 40px 0 5px;
+    color: #dfd9fa;
+    font-family: 'Poppins', sans-serif;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: fixed;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+}
+.logo2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+.col h3{
+    width: fit-content;
+
+    margin-bottom: 20px;
+    position: relative;
+}
+.email{
+    width: fit-content;
+    border-bottom: 2px solid #dfd9fa;;
+    margin-top: 15px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #dfd9fa;;
+}
+.para{
+    border-bottom: 2px solid #dfd9fa;;
+    margin-bottom: 20px;
+}
+.social-icons a{
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 27px;
+    color: #dfd9fa;;
+}
+@media (max-width: 600px){
+    footer .row{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+    footer .col ul{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .col input{
+        width: 100%;
+    }
+}
+footer .quick a:hover{
+    
+    background: #144272;
+    padding: 1px 6px;
+    border-radius: 10px;
+    transition: .70s;
+    margin-left: 5px;
+}
+.footer a:hover{
+    padding: 1px 6px;
+    border-radius: 10px;
+    transition: .70s;
+    margin-left: 5px;
+    color: #0A2647;
+}
+/* END OF FOOTER */
+
+/* SCROLLBAR */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #e7e2ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e7e2ff, #356bb3, #948ead, #e7e2ff);
+    border-radius: 15px;
+}
+/* END OF SCROLLBAR */
